@@ -1,0 +1,29 @@
+# AWS credentials
+ano-cert/
+*.pem
+*.crt
+*.key
+
+cert/
+*.pem
+*.crt
+*.key
+
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Lambda layer zip files
+*.zip
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+evidence/
+influx-layer/
